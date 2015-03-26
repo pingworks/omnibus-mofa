@@ -15,7 +15,7 @@
 #
 
 name "chefdk"
-default_version "master"
+default_version "0_5_release"
 
 source git: "git://github.com/opscode/chef-dk"
 
@@ -60,7 +60,7 @@ build do
     'fauxhai'           => '2.2.0',
     'rubocop'           => '0.28.0',
     'knife-spork'       => '1.5.0',
-    'kitchen-vagrant'   => '0.15.0',
+    'kitchen-vagrant'   => '0.17.0.beta.4',
     # Strainer build is hosed on windows
     # 'strainer'        => '0.15.0',
   }.each do |name, version|

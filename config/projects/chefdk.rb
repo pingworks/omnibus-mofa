@@ -48,7 +48,7 @@ override :cacerts, version: '2014.08.20'
 
 override :berkshelf,      version: "v3.2.3"
 override :bundler,        version: "1.7.12"
-override :chef,           version: "master"
+override :chef,           version: "12.2.0"
 override :'chef-vault',   version: "v2.4.0"
 
 # TODO: Can we bump default versions in omnibus-software?
@@ -74,15 +74,15 @@ override :'ruby-windows', version: "2.0.0-p451"
 override :rubygems,       version: "2.4.4"
 ######
 
-override :'test-kitchen', version: "v1.3.1"
+override :'test-kitchen', version: "v1.4.0.beta.2"
 override :yajl,           version: "1.2.1"
 override :zlib,           version: "1.2.8"
 
-override :'chef-provisioning', version: "v0.18"
-override :'chef-provisioning-fog', version: "v0.12"
+override :'chef-provisioning', version: "v0.19"
+override :'chef-provisioning-fog', version: "v0.13.1"
 override :'chef-provisioning-vagrant', version: "v0.8.1"
-override :'chef-provisioning-azure', version: "v0.1"
-override :'chef-provisioning-aws', version: "v0.2.1"
+override :'chef-provisioning-azure', version: "v0.2.1"
+override :'chef-provisioning-aws', version: "v0.5.0"
 
 dependency "preparation"
 dependency "chefdk"
