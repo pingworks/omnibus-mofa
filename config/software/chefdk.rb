@@ -15,7 +15,7 @@
 #
 
 name "chefdk"
-default_version "0_5_release"
+default_version "0.5.0.rc.1"
 
 source git: "git://github.com/opscode/chef-dk"
 
