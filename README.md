@@ -1,12 +1,8 @@
-Client Tools Omnibus project
+Mofa Tool Omnibus project
 ============================
-This project creates full-stack platform-specific packages for the following projects:
+This project creates full-stack platform-specific packages for the following project:
 
-* AngryChef
-* Chef
-* ChefDK
-* Chef Container
-* Push Jobs Client
+* Mofa
 
 Installation
 ------------
